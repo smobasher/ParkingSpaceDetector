@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="130dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginRight="368dp"
+        android:text="Spot 1"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btnSend2"
+        android:layout_width="130dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="235dp"
+        android:text="Spot 2"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.008"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnSend3"
+        android:layout_width="130dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="380dp"
+        android:text="Spot 3"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.018"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.486" />
+
+    <Button
+        android:id="@+id/btnSend4"
+        android:layout_width="130dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="525dp"
+        android:text="Spot 4"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.016"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.497" />
+
+    <Button
+        android:id="@+id/btnSend5"
+        android:layout_width="130dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="650dp"
+        android:text="Spot 5"
+        android:layout_alignParentLeft="true"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.018"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.724" />
+
+    <Button
+        android:id="@+id/btnSend6"
+        android:layout_width="130dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Spot 6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnSend7"
+        android:layout_width="130dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginRight="10dp"
+        android:text="Spot 7"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.997"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnSend8"
+        android:layout_width="130dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginRight="10dp"
+        android:text="Spot 8"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"         app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.997"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnSend9"
+        android:layout_width="130dp"
+        android:layout_height="83dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="525dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="5dp"
+        android:text="Spot 9"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.994"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnSend10"
+        android:layout_width="130dp"
+        android:layout_height="83dp"
+        android:layout_marginBottom="110dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Spot 10"
+        app:layout_constraintVertical_bias="0.574" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:rotation="90"
+        android:scaleX="2.1"
+        android:scaleY="1.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/stock_photo_photo_of_asphalt_parkinglot_fake_texture_134550098" />
+
+    <Button
+        android:id="@+id/printToConsole"
+        android:layout_width="135dp"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="6dp"
+        app:backgroundTint="#00DD4E82" />
+
+    <Button
+        android:id="@+id/refresh"
+        android:layout_width="135dp"
+        android:layout_height="63dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        app:backgroundTint="#00DD4E82" />
+
+</RelativeLayout>
